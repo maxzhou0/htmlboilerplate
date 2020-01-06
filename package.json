@@ -1,0 +1,23 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js": "babel src --out-dir lib --watch",
+    "css": "postcss ./src/css --use autoprefixer --dir ./lib/css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^6.1.3",
+    "precss": "^4.0.0",
+    "autoprefixer": "^9.7.3"
+  },
+  "dependencies": {}
+}
